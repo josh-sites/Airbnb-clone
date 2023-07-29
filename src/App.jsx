@@ -1,17 +1,25 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Card from './components/Card'
+import cardData from './cardData'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const cards = cardData.map(card => {
+    return <Card
+            key={card.id}
+            {...card}
+           />
+  })
   return (
     <div>
       <Navbar />
       <Hero />
+      <div className="cards-list">
+        {cards}
+      </div>
     </div>
   )
 }

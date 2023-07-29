@@ -1,6 +1,6 @@
 import React from 'react'
 import { ReactDOM } from 'react'
-import logo from '../assets/airbnb-logo.png'
+import logo from '/assets/airbnb-logo.png'
 
 function Navbar(){
     return (

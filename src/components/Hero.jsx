@@ -1,6 +1,6 @@
 import React from "react"
 import { ReactDOM } from "react"
-import grid from "../assets/photo-grid.png"
+import grid from "/assets/photo-grid.png"
 
 function Hero() {
     return (

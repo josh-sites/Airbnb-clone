@@ -1,8 +1,8 @@
 .navbar {
-  height: 50px;
+  height: 55px;
   padding: 20px 36px;
   display: flex;
-  box-shadow: 0px 2.98256px 7.4564px rgb(0, 0, 0, 0.1);
+  box-shadow: 0px 2.98256px 7.4564px rgb(0, 0, 0, 0.3);
 }
 
 .logo {
@@ -10,7 +10,7 @@
 }
 
 .grid {
-  width: 70%;
+  width: 55%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -31,4 +31,67 @@
   margin-top: 0px;
   padding-top: 0px;
   padding-left: 46px
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card {
+  padding-left: 50px;
+  padding-top: 30px;
+  width: 20vw;
+  font-size: 2vw;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.cards-list {
+  padding-top: 20px;
+  box-shadow: 
+    inset 0px 11px 8px -10px rgb(0, 0, 0, 0.4),
+    inset 0px -11px 8px -10px rgb(0, 0, 0, 0.4);
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 40px;
+  overflow-x: auto;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--price {
+  margin-top: auto;
+}
+
+.card--badge {
+  position: absolute;
+  /* top: 6px;
+  left: 6px; */
+  background-color: white;
+  margin: 3px 5px;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
